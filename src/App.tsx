@@ -176,15 +176,15 @@ export default function App() {
         <div className="relative overflow-hidden min-h-screen flex flex-col">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-700" />
           <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, white 1px, transparent 1px)", backgroundSize: "36px 36px" }} />
-          <div className="relative flex-1 flex flex-col px-5 py-8">
-            <div className="flex items-center justify-between mb-auto">
+          <div className="relative flex-1 flex flex-col justify-between px-5 pt-5 pb-6">
+            <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 text-white">
                 <div className="w-9 h-9 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center"><Home size={20} /></div>
                 <span className="text-xl font-bold tracking-tight">Alquila<span className="text-amber-300">RD</span></span>
               </div>
               <button onClick={toggleDark} className="w-9 h-9 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center text-white">{dark ? <Sun size={18} /> : <Moon size={18} />}</button>
             </div>
-            <div className="text-center text-white my-8">
+            <div className="text-center text-white py-6">
               <span className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur px-3 py-1 rounded-full text-sm mb-4"><MapPin size={14} /> Baní · Provincia Peravia 🇩🇴</span>
               <h1 className="text-3xl font-extrabold tracking-tight leading-tight mb-3">Encuentra dónde<br />alquilar en Baní</h1>
               <p className="text-white/80">Casas, apartamentos y locales en toda la provincia, con la info que necesitas.</p>
